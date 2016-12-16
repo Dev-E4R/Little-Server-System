@@ -1,0 +1,28 @@
+name: Little-Server-System
+authors: [FlockenKind,Haushaltshilfe]
+version: 1.0
+website: http://Detoxz.net
+
+main: de.FlockenKind.LSS.Main
+
+commands:
+   tp:
+     description: Teleport to a Player
+   tphere:
+     description: Teleport a Player to you
+   lss:
+     description: Help for Little-Server-System
+   heal:
+     description: Heal yourself or a Player
+   spawn:
+     description: Teleports to the Spawn
+   setspawn:
+     description: Set the Spawn
+   fly:
+     description: Set your Flight mode
+   cc:
+     description: Set your Flight mode
+     aliases: chatclear
+   gm:
+     description: Set your Gamemode
+     aliases: gamemode

@@ -1,0 +1,161 @@
+###########################################################
+#               Little Server System                      #
+#            » by Haushaltshilfe/FlockenKind «            #
+#                                                         #
+#             Support via Skype » radiohardcor            #
+#                                                         #
+#                     Leave a Rating :D                   #
+#                      PEX is required!                   #
+###########################################################
+
+# System
+# 
+# For Joinmessage is the Groupsuffix important example [+] &4Haushaltshilfe &7has &ajoined &7the Server!
+
+Prefix: '&cYour &lPrefix &8| &7'
+JoinPrefix: '&8[&a&l+&8]'
+LeavePrefix: '&8[&c&l-&8]'
+NeededPermission: '&7You do not have these Permissions!'
+UnknownPlayer: '&7The Player UUID is &cunknown&7!'
+UnknownCommand: '&7Please Use'
+JoinMessage: '&7has &ajoined &7the Server!'
+LeaveMessage: '&7has &cdisconnected &7the Server!'
+Minute: 'Minute'
+Minutes: 'Minutes'
+Second: 'Second'
+Seconds: 'Seconds'
+
+###########################################################
+
+# Messages (example: &4EXAMPLEUSER &7was killed by &eEXAMPLEUSER2)
+
+TeleportMessagebeforethename: '&7Message before the Name'
+TeleportMessagebeforethename: '&7Message after the Name'
+TeleporthereMessagebeforethename: '&7TphereMessage before the Name'
+TeleporthereMessageafterthename: '&7TphereMessage after the Name'
+Selfheal: '&7You have been healed &cyourself&7!'
+HealMessagebeforethename: '&7Healmessage before the Name'
+HealMessageafterthename: '&7Healmessage after the Name'
+HealedMessagebeforethename: '&7Healedmessage before the Name'
+SpawnNotExist: '&7The spawn &cdoes not &7exist!'
+SpawnWasSet: '&7You have &aset &7the spawn point&7!'
+FlyActivate: '&7FlyDectivate'
+FlyDeactivate: '&7Flight mode &7is now &cdectivated&7!'
+ChatClear: '&7has &ccleared &7the chat!'
+Youneedtowaitbeforethecountdown: '&7You need to wait'
+Youneedtowaitbetweenthecountdown: '&7and &c'
+Youneedtowaitafterthecountdown: '&7to perform this Command!'
+ChangeGameMode: '&7Change your Gamemode with'
+GameModeChange: '&7Your Gamemode changed to'
+SurvivalGamemode: '&aSurvival'
+CreativeGamemode: '&cCreative'
+AdventureGamemode: '&eAdventure'
+SpectatorGamemode: '&4Spectator'
+UnknownGamemode: '&7The Gamemode is &cunknown&7!'
+
+###########################################################
+
+# Commands for Error Messages (example: Unknown Command! Use /example)
+
+TP-Command: '&e/tp <Player>'
+TPHere-Command: '&e/tphere <Player>'
+Heal-Command: '&e/heal &7or &e/heal <Player>'
+Spawn-Command: '&e/spawn'
+SetSpawn-Command: '&e/setspawn'
+Fly-Command: '&e/fly'
+ChatClear-Command: '&e/cc'
+GameMode-Command: '&e/gm'
+
+###########################################################
+
+# Scoreboard
+#
+# Variables - exmaple - %rank = PEX REX | Planning
+
+Scoreboard-Title: '&e&lYOUR SERVER'
+LINE1: '&aLine 1'
+LINE2: '&bLine 2'
+LINE3: '&cLine 3'
+LINE4: '&dLine 4'
+LINE5: '&eLine 5'
+LINE6: '&fLine 6'
+LINE7: '&1Line 7'
+LINE8: '&2Line 8'
+LINE9: '&3Line 9'
+
+###########################################################
+
+# Tab
+#
+# TAB-HeadName = The Name over the Name
+# TAB-Name = The Name in the Tablist
+#
+# Tab-Name not allowed more than 32 Character (I mean FARBCODE+COLOR+NAME etc.)
+# Example: &4Plugin Developer &8| &4Haushaltshilfe = more than 32 Character
+
+Tab-HeadName-Owner: '&4'
+Tab-Name-Owner: '&4'
+
+Tab-HeadName-CoOwner: '&4'
+Tab-Name-CoOwner: '&4'
+
+Tab-HeadName-Admin: ''
+Tab-Name-Admin: '&4'
+
+Tab-HeadName-Developer: '&b'
+Tab-Name-Developer: '&b'
+
+Tab-HeadName-SeniorModerator: '&c'
+Tab-Name-SeniorModerator: '&c'
+
+Tab-HeadName-Moderator: '&c'
+Tab-Name-Moderator: '&c'
+
+Tab-HeadName-Supporter: '&9'
+Tab-Name-Supporter: '&9'
+
+Tab-HeadName-SeniorBuilder: '&a'
+Tab-Name-SeniorBuilder: '&a'
+
+Tab-HeadName-Builder: '&a'
+Tab-Name-Builder: '&a'
+
+Tab-HeadName-Designer: '&d'
+Tab-Name-Designer: '&d'
+
+Tab-HeadName-VIP: '&5'
+Tab-Name-VIP: '&5'
+
+Tab-HeadName-Premiumplus: '&6'
+Tab-Name-Premiumplus: '&6'
+
+Tab-HeadName-Premium: '&6'
+Tab-Name-Premium: '&6'
+
+Tab-HeadName-Player: '&e'
+Tab-Name-Player: '&e'
+
+###########################################################
+
+# Chat
+#
+# Example: &8[&4Owner&8] &4Haushaltshilfe &8» &7Hallo Welt
+
+Chatformat-Owner: '&8[&4Owner&8] &4'
+Chatformat-CoOwner: '&8[&4Co-Owner&8] &4'
+Chatformat-Admin: '&8[&4Admin&8] &4'
+Chatformat-Developer: '&8[&bDeveloper&8] &b'
+Chatformat-SeniorModerator: '&8[&cSr.Moderator&8] &c'
+Chatformat-Moderator: '&8[&cModerator&8] &c'
+Chatformat-Supporter: '&8[&9Supporter&8] &9'
+Chatformat-SeniorBuilder: '&8[&aSr.Builder&8] &a'
+Chatformat-Builder: '&8[&aBuilder&8] &a'
+Chatformat-Designer: '&8[&dDesigner&8] &d'
+Chatformat-VIP: '&8[&5VIP&8] &5'
+Chatformat-PremiumPlus: '&8[&6PremiumPlus&8] &6'
+Chatformat-Premium: '&8[&6Premium&8] &6'
+Chatformat-Player: '&8[&ePlayer&8] &e'
+
+Chatformat-Messageoutput: ' &8> &7'
+
+###########################################################
